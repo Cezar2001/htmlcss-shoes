@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.box{
+    height: 100vh;
+    position: relative; 
+}
+
+.red{
+    background-color: red;
+    z-index: 1;
+}
+
+.green{
+    background-color: green;
+} 
+
+.yellow{
+    background-color: yellow;
+}
+
+.box-content{
+    width: 750px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2
+}
+
+.text{
+    position: absolute;
+    bottom: 20px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.giallo{
+    color: yellow;
+}
+
+.verde{
+    color: green;
+}
+
+.foto-1{
+    background-image: url("../img/01.png");
+}
+
+.foto-2{
+    background-image: url("../img/02.png");
+}
+
+.foto-3{
+    background: url("../img/03.png") no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li{
+    display: block;
+    margin: 20px 30px;
+}
+
+li{
+    position: fixed;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 2;
+    right: 50px;
+}
+
+
+
