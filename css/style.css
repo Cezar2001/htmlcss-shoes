@@ -68,18 +68,21 @@ a{
     text-decoration: none;
 }
 
+nav{
+    position: fixed;
+    z-index: 2;
+    right: 50px;
+}
+
 nav ul li{
-    display: block;
-    margin: 20px 30px;
+    display: inline-block;
+    margin: 20px 15px;
 }
 
 li{
-    position: fixed;
     padding: 10px;
     border-radius: 50%;
     background-color: white;
-    z-index: 2;
-    right: 50px;
 }
 
 
